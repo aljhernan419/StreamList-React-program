@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.app-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.app-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.app-nav li {
+  font-size: 1.2rem;
+}
+
+.app-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.stream-list {
+  padding: 20px;
+}
+
+.stream-list input {
+  margin: 5px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
