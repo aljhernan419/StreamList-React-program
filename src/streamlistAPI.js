@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_KEY = 'your_tmdb_api_key'; // Replace with your actual TMDB API key
+const API_KEY = '98cc91d87b8828e22f94dbc39a73b079'; // 
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 export const fetchMovies = async () => {
